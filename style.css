@@ -8,6 +8,7 @@
 body{
     background-color: #ddf9ff;
     justify-content: center;
+    width: 100vw;
 }
 .content{
     margin: auto;
