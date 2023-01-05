@@ -118,7 +118,8 @@ p{
         padding: 20px;
         width: fit-content;
     }
-    
+}
+@media only screen and (max-width: 800px){
     .othersContainer{
         display: grid;
         grid-template-columns: 1fr 100px;
@@ -141,3 +142,4 @@ p{
         box-shadow: none;
     }
 }
+    
