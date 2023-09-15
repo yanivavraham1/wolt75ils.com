@@ -8,6 +8,8 @@
 body{
     background-color: #ddf9ff;
     justify-content: center;
+    position: relative;
+    direction: rtl;
 
 }
 .content{
@@ -112,11 +114,21 @@ p{
         padding: 0;
         margin: 0;
     }
+    .message{
+        background-color: #e9fbff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 10px;
+    }
 
 @media only screen and (max-width: 600px) {
     .content{
         padding: 20px;
         width: fit-content;
+        position: absolute;
+        bottom: 0;
+        direction: rtl;
     }
 }
 @media only screen and (max-width: 800px){
@@ -141,4 +153,6 @@ p{
     .othersContainer .linkOption:hover{
         box-shadow: none;
     }
+
+
 }
