@@ -8,7 +8,6 @@
 body{
     background-color: #ddf9ff;
     justify-content: center;
-    position: relative;
     direction: rtl;
 
 }
@@ -126,7 +125,7 @@ p{
     .content{
         padding: 20px;
         width: fit-content;
-        position: absolute;
+        position: fixed;
         bottom: 0;
         direction: rtl;
     }
