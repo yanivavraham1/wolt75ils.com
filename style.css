@@ -42,7 +42,8 @@ background-size: cover;
 .couponContainer{
     background-color: rgba(255, 255, 255, 0.932);
     border: 1px solid rgb(138, 138, 138);
-    padding: 20px 0;
+    padding: 20px 20px;
+    width: fit-content;
     border-radius: 1.2rem;
     margin: 10px 0;
 }
