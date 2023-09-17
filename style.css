@@ -8,6 +8,10 @@
 
 }
 
+ul{
+    list-style: none;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     direction: rtl;
