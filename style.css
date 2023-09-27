@@ -12,6 +12,11 @@ ul{
     list-style: none;
 }
 
+a{
+    color: #FFF;
+    text-decoration: none;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     direction: rtl;
@@ -91,4 +96,16 @@ body {
 
 .message h1{
     font-size: 1.4rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        text-align: center;
+    }
+
+    .content, .logo, .couponContainer, .terms, .contact, .title, .description, .coupon-code,
+    .secTitle, .thirdTitle, .terms p, .contact p, .message, .message h1 {
+        text-align: center !important;
+    }
 }
